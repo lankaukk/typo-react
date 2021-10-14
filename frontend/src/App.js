@@ -17,7 +17,7 @@ class App extends Component {
     this.loginStatus()
   }
 
-  // // one of the advantages of using Axios over fetch() is that it onverts the response to JSON automatically
+  // one of the advantages of using Axios over fetch() is that it onverts the response to JSON automatically
   loginStatus = () => {
       axios.get('http://localhost:3001/logged_in', 
       {withCredentials: true})    
